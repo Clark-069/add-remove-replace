@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="profile">
+            <img src="profile.jpg" alt="User Profile">
+            <span class="username">John Doe</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Profile</h1>
+
+        <input type="text" id="search" placeholder="Search Subjects..." onkeyup="searchSubjects()">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Order</th>
+                    <th>Subject</th>
+                    <th>add to my own subjects</th>
+                </tr>
+            </thead>
+            <tbody id="Subject-table">
+            </tbody>
+        </table>
+
+        <div class="controls">
+            <h3>Add a New Subject</h3>
+            <input type="text" id="book-name" placeholder="Enter Subject Name">
+            <button onclick="addSubject()">Add</button>
+
+            <h3>Delete a Subject</h3>
+            <input type="number" id="delete-id" placeholder="Enter Order">
+            <button onclick="deleteSubject()">Delete</button>
+
+            <h3>Replace a Subject</h3>
+            <input type="number" id="replace-id" placeholder="Enter Order ID">
+            <input type="text" id="new-Subject-name" placeholder="Enter New Subject Name">
+            <button onclick="replaceSubject()">Replace</button>
+        </div>
+
+        <div class="owned-subjects">
+            <h2>Owned Subjects</h2>
+            <ul id="owned-list">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
