@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d2d2c !important;
+}
+/*---------------Login Style-------------------------*/
+.login-container h1, 
+.login-container h2, 
+.login-container h3, 
+.login-container h4, 
+.login-container h5, 
+.login-container h6,
+.login-container span {
+    color: #2d2d2c !important;
+}
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+#loginForm input.form-control, 
+#loginForm textarea.form-control {
+    border-color: #2d2d2c !important;
+}
+#loginForm input.form-control:focus, 
+#loginForm textarea.form-control:focus {
+    border-color: #2d2d2c;
+    box-shadow: 0 0 0 0.25rem transparent; /* Optional: Adds a subtle shadow */
+}
+#loginForm > button {
+    background-color: #2d2d2c; /* Set background color */
+    border-color: #2d2d2c; /* Set border color if desired */
+}
+
+#loginForm > button:hover {
+    background-color: #2d2d2c; /* Change color on hover */
+    border-color: #444444;
+    transform: scale(1.05);
+}
+/*---------------Registration Style-------------------------*/
+.register-container h1, 
+.register-container h2, 
+.register-container h3, 
+.register-container h4, 
+.register-container h5, 
+.register-container h6,
+.register-container span {
+    color: #2d2d2c !important;
+}
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+#registerForm input.form-control, 
+#registerForm textarea.form-control {
+    border-color: #2d2d2c !important;
+}
+#registerForm input.form-control:focus, 
+#registerForm textarea.form-control:focus {
+    border-color: #2d2d2c;
+    box-shadow: 0 0 0 0.25rem transparent; /* Optional: Adds a subtle shadow */
+}
+#registerForm > button {
+    background-color: #2d2d2c; /* Set background color */
+    border-color: #2d2d2c; /* Set border color if desired */
+}
+
+#registerForm > button:hover {
+    background-color: #2d2d2c; /* Change color on hover */
+    border-color: #444444;
+    transform: scale(1.05);
+}
+
+/*---------------Forgot Password Style-------------------------*/
+.forgot-container h1, 
+.forgot-container h2, 
+.forgot-container h3, 
+.forgot-container h4, 
+.forgot-container h5, 
+.forgot-container h6,
+.forgot-container span {
+    color: #2d2d2c !important;
+}
+.forgot-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+#forgotPasswordForm input.form-control, 
+#forgotPasswordForm textarea.form-control {
+    border-color: #2d2d2c !important;
+}
+#forgotPasswordForm input.form-control:focus, 
+#forgotPasswordForm textarea.form-control:focus {
+    border-color: #2d2d2c;
+    box-shadow: 0 0 0 0.25rem transparent; /* Optional: Adds a subtle shadow */
+}
+#forgotPasswordForm > button {
+    background-color: #2d2d2c; /* Set background color */
+    border-color: #2d2d2c; /* Set border color if desired */
+}
+
+#forgotPasswordForm > button:hover {
+    background-color: #2d2d2c; /* Change color on hover */
+    border-color: #444444;
+    transform: scale(1.05);
+}

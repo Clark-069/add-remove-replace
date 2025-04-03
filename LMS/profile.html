@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>LMS</h2>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="profile-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" alt="Profile Picture">
+            <h3 id="name">maple</h3>
+            <p><strong>Email ID:</strong> <span id="email">maplle@gmail.com</span></p>
+            <p><strong>ID No:</strong> <span id="ID">2212566546</span></p>
+            <p><strong>User:</strong> <span id="User">Student</span></p>
+            <p><strong>Mobile Number:</strong> <span id="mobile">9299545435</span></p>
+            <button class="edit-btn" onclick="editDetails()">Edit Details</button>
+        </div>
+
+        <!-- Added Books Section -->
+        <div class="Added-books">
+            <h2>Added Books</h2>
+            <ul id="AddedBooksList">
+                <!-- Books will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
